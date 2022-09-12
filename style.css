@@ -10,16 +10,11 @@ html, body {
 }
 
 body {
-  background-color: #fff;
   font-family: 'Montserrat', sans-serif;
   box-sizing: border-box;
-  padding: 0 1rem;
-}
-
-/* Sections */
-header, section, #blogPosts {
   min-width: 20rem;
   max-width: 30rem;
+  padding: 0 1rem;
   margin: 0 auto;
 }
 
@@ -62,6 +57,7 @@ a {
 
 /* Classes and IDs */
 #feature {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   padding-top: 1.5rem;
@@ -100,9 +96,43 @@ a {
   margin: 0 auto;
 }
 
-/* Medium and Large devices */
-@media only screen and (min-width: 48rem) {
-  header, section, #blogPosts {
-    max-width: 56.25rem;
+/* Medium devices */
+@media only screen and (min-width: 37.5rem) {
+  body {
+    max-width: 39.5rem;
+  }
+  #blogPosts {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .post {
+    margin: 0;
+  }
+}
+
+/* Large Devices */
+@media only screen and (min-width: 56.25rem) {
+  body {
+    max-width: 58.25rem;
+    margin: 4.75rem auto 7.5rem;
+  }
+  #feature {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #feature > a {
+    width: 65%;
+  }
+  #feature > .textContent {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 2.1875rem;
+  }
+  #feature .textContent > * {
+    width: 16.875rem;
   }
 }
