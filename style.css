@@ -40,16 +40,24 @@ p {
 
 h2, h5, h3 {
   font-weight: 600;
+  padding-top: 0.625rem;
 }
 
 h2 {
   font-size: 1.6rem;
-  padding-top: 0.625rem;
 }
 
 h5 {
   font-size: 0.9rem;
-  padding-top: 0.625rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
 }
 
 /* Classes and IDs */
@@ -59,7 +67,7 @@ h5 {
   padding-top: 1.5rem;
 }
 
-#feature > img {
+#feature img {
   width: 100%;
 }
 
@@ -80,6 +88,16 @@ h5 {
 
 .nameDateMins {
   padding-left: 0.625rem;
+}
+
+.post img {
+  width: 100%;
+}
+
+.post {
+  width: 16.875rem;
+  padding-top: 2.25rem;
+  margin: 0 auto;
 }
 
 /* Medium and Large devices */
