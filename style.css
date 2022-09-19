@@ -82,7 +82,7 @@ a {
   padding-top: 1.25rem;
 }
 
-.nameDateMins {
+.name-date-mins {
   padding-left: 0.625rem;
 }
 
@@ -101,7 +101,7 @@ a {
   body {
     max-width: 39.5rem;
   }
-  #blogPosts {
+  #blog-posts {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -125,14 +125,14 @@ a {
   #feature > a {
     width: 65%;
   }
-  #feature > .textContent {
+  #feature > .text-content {
     width: 35%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     padding-top: 2.1875rem;
   }
-  #feature .textContent > * {
+  #feature .text-content > * {
     width: 16.875rem;
   }
 }
